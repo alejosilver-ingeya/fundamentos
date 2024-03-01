@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.bienvenida-container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn-right {
+    display: block;
+    position: fixed; /* Fija la posición del botón */
+    top: 20px; /* Distancia desde la parte superior */
+    right: 20px; /* Distancia desde la derecha */
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.btn-create {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+.btn-edit, .btn-delete {
+    padding: 5px 10px;
+    margin-right: 5px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.btn-edit {
+    background-color: #28a745;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+}
+
+.news-image img {
+    max-width: 40%; /* Limita el ancho máximo de la imagen al ancho del contenedor */
+    height: auto; /* Ajusta la altura automáticamente manteniendo la relación de aspecto */
+}
+
+.news-container {
+    max-width: 800px;
+    margin: 20px auto; /* Centra el contenedor en la página */
+    padding: 0 20px; /* Agrega un poco de espacio interno */
+}
+
+.news {
+    margin-bottom: 20px; /* Reducimos el espacio entre noticias */
+    padding: 10px; /* Reducimos el espacio interno de la noticia */
+    background-color: #fff; /* Fondo blanco */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.news-content {
+    overflow: hidden; /* Evita que el contenido se desborde */
+    text-align: justify; /* Alinea el texto justificado */
+}

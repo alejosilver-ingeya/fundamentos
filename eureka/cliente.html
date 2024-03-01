@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clientes - Eureka</title>
+    <link rel="stylesheet" href="./css/cliente.css">
+</head>
+<body>
+    <header>
+        <h1>Listado de Clientes</h1>
+        <button class="btn-create">Crear Cliente</button>
+    </header>
+
+    <div class="container">
+        <div class="table-container">
+            <table id="tabla-clientes">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Dirección</th>
+                        <th>Teléfono</th>
+                        <th>Correo Electrónico</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+
+    <div id="modal-crear-cliente" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Crear Cliente</h2>
+            <form id="form-crear-cliente">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br>
+                <label for="direccion">Dirección:</label>
+                <input type="text" id="direccion" name="direccion" required><br>
+                <label for="telefono">Teléfono:</label>
+                <input type="text" id="telefono" name="telefono" required><br>
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required><br>
+                <input type="submit" value="Crear">
+            </form>
+        </div>
+
+    <script src="../eureka/js/cliente.js"></script>
+</body>
+</html>
